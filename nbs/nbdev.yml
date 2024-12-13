@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "TSFM"
+  site-url: "https://fevzikilas.github.io/TSFM"
+  description: "Time Series Forcasting Models"
+  repo-branch: main
+  repo-url: "https://github.com/fevzikilas/TSFM"

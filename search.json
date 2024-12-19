@@ -1,0 +1,1732 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Models",
+    "section": "",
+    "text": "We will be examining some of the Time Series Forecasting Models that published in 2024.\n@Fevzi KILAS(aka niexche)\n\n# Currently there are 168 models. Implementation will start from best models.\n# Explanations will take time. Thank you for patient.\n\n\n\n\nStochastic Models - Moving Average (MA) Model - Autoregressive (AR) Model - Autoregressive Moving Average (ARMA) Model - Autoregressive Integrated Moving Average (ARIMA) Model - Seasonal ARIMA (SARIMA) Model - Exponential Smoothing Models - Vector Autoregression (VAR) Model: - Vector Autoregression Moving-Average (VARMA) Model - Vector Autoregression Moving-Average with Exogenous Regressors (VARMAX) Model - Seasonal Decomposition of Time Series (STL) Model - Seasonal-Trend decomposition using LOESS (STL) Model - Seasonal-Trend decomposition using LOESS with ARIMA errors (STL-ARIMA) Model - Seasonal-Trend decomposition using LOESS with Exogenous Regressors (STL-X) Model - Seasonal-Trend decomposition using LOESS with ARIMA errors and Exogenous Regressors (STL-ARIMA-X) Model\n\nML Models - RNN and LSTM Networks - CNN Networks - Encoder-Decoder Networks - Attention Networks - Transformer Networks - WaveNet Networks - TCN Networks - DeepAR Networks - DeepState Networks - DeepFactor Networks\n\n\nEvaluation Metrics - Mean Absolute Error (MAE) - Mean Squared Error (MSE) - Root Mean Squared Error (RMSE) - Mean Absolute Percentage Error (MAPE) - Symmetric Mean Absolute Percentage Error (SMAPE) - Mean Absolute Scaled Error (MASE) - Theil’s U Statistic - R2 Score - Adjusted R2 Score - Akaike Information Criterion (AIC) - Bayesian Information Criterion (BIC) - Mean Forecast Error (MFE) - Mean Absolute Deviation (MAD) - Tracking Signal (TS) - Forecast Bias - Forecast Accuracy - Forecast Precision - Forecast Recall - Forecast F1 Score - Forecast ROC AUC Score - Forecast PR AUC Score - Forecast Confusion Matrix - Forecast Classification Report - Forecast ROC Curve - Forecast PR Curve - Forecast Calibration Curve - Forecast Learning Curve - Forecast Residuals Plot - Forecast Residuals Density Plot - Forecast Residuals Distribution Plot - Forecast Residuals Q-Q Plot - Forecast Residuals Autocorrelation Plot - Forecast Residuals Partial Autocorrelation Plot - Forecast Residuals Lag Plot - Forecast Residuals Scatter Plot - Forecast Residuals vs. Time Plot - Forecast Residuals vs. Predicted Plot - Forecast Residuals vs. Actual Plot - Forecast Residuals vs. Forecast Plot - Forecast Residuals vs. Error Plot - Forecast Residuals vs. Squared Error Plot - Forecast Residuals vs. Absolute Error Plot - Forecast Residuals vs. Absolute Percentage Error Plot\n\n\n\n\n\n17 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n17 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n12 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n14 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n23 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n08 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n04 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n11 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n09 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n#### Buraya kadar incele sonrasi date order\n\n\n\n\n\n\nLong Term TSF\nDiPE-Linear incorporates three temporal components: - Static Frequential Attention (SFA): Extracts and enhances prominent frequencies in the frequency domain. - Static Temporal Attention (STA): Selects input time points in the time domain that are strongly correlated with the predicted sequence. - Independent Frequential Mapping (IFM): Assumes independence across different frequencies and directly maps the input series to the output series at each frequency component in frequency domain.\nThese components alternate between learning in the frequency and time domains to achieve disentangled inter-pretability.\n26 Nov 2024\nPaper Link\nImplementation Link\n\n\n\n\n13 Nov 2024\nPaper Link\nImplementation Link\n\n\n\n\n07 Nov 2024\nPaper Link\n\n\n\n\n07 Nov 2024\nPaper Link\nImplementation Link\n\n\n\n\n06 Nov 2024\nPaper Link\nImplementation Link\n\n\n\n\n05 Nov 2024\nPaper Link\n\n\n\n\n05 Nov 2024\nPaper Link\nImplementation Link\n\n\n\n\n04 Nov 2024\nPaper Link\nImplementation Link\n\n\n\n\n03 Nov 2024\nPaper Link\nImplementation Link\n\n\n\n\n31 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n30 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n30 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Oct 2024\nPaper Link\n\n\n\n\n16 Oct 2024\nPaper Link\n\n\n\n\n15 Oct 2024\nPaper Link\n\n\n\n\n15 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n14 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n12 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n12 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n12 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n08 Oct 2024\nPaper Link\n\n\n\n\n07 Oct 2024\nPaper Link\n\n\n\n\n04 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n02 Oct 2024\nPaper Link\nImplementation Link\n\n\n\n\n30 Sep 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 Sep 2024\nPaper Link\nImplementation Link\n\n\n\n\n27 Sep 2024\nPaper Link\nImplementation Link\n\n\n\n\n24 Sep 2024\nPaper Link\n\n\n\n\n24 Sep 2024\nPaper Link\nImplementation Link\n\n\n\n\n30 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n28 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n20 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n13 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n11 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n08 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n06 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n02 Aug 2024\nPaper Link\nImplementation Link\n\n\n\n\n25 Jul 2024\nPaper Link\n\n\n\n\n22 Jul 2024\nPaper Link\n\n\n\n\n18 Jul 2024\nPaper Link\nImplementation Link\n\n\n\n\n18 Jul 2024\nPaper Link\nImplementation Link\n\n\n\n\n11 Jul 2024\nPaper Link\n\n\n\n\n11 Jul 2024\nPaper Link\n\n\n\n\n10 Jul 2024\nPaper Link\nImplementation Link\n\n\n\n\n07 Jul 2024\nPaper Link\nImplementation Link\n\n\n\n\n03 Jul 2024\nPaper Link\nImplementation Link\n\n\n\n\n01 Jul 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n25 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n22 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n20 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n20 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n18 Jun 2024\nPaper Link\n\n\n\n\n18 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n17 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Jun 2024\nPaper Link\n\n\n\n\n12 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n12 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n11 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n04 Jun 2024\nPaper Link\n\n\n\n\n04 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n03 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n03 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n30 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n28 May 2024\nPaper Link\n\n\n\n\n26 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n23 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n18 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n17 May 2024\nPaper Link\n\n\n\n\n14 May 2024\nPaper Link\n\n\n\n\n14 May 2024\nPaper Link\n\n\n\n\n12 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n11 May 2024\nPaper Link\n\n\n\n\n10 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n09 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n07 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n06 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n02 May 2024\nPaper Link\n\n\n\n\n23 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n21 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n15 Apr 2024\nPaper Link\n\n\n\n\n08 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n04 Apr 2023\nPaper Link\nImplementation Link\n\n\n\n\n02 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n02 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 Mar 2024\nPaper Link\n\n\n\n\n29 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n25 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n25 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n24 Mar 2024\nPaper Link\n\n\n\n\n24 Mar 2024\nPaper Link\n\n\n\n\n24 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n22 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n22 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n14 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n14 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n13 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n10 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n09 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n08 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n07 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n06 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n05 Mar 2024\nPaper Link\n\n\n\n\n04 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n04 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n29 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n26 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n25 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n22 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n15 Feb 2024\nPaper Link\n\n\n\n\n08 Feb 2024\nPaper Link\n\n\n\n\n06 Feb 2024\nPaper Link\nhttps://anonymous.4open.science/r/BETT-773F/README.md)\n\n\n\n\n05 Feb 2024\nPaper Link\n\n\n\n\n05 Feb 2024\nPaper Link\n\n\n\n\n04 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n04 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n03 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n02 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n25 Jan 2024\nPaper Link\n\n\n\n\n18 Jan 2024\nPaper Link\n\n\n\n\n17 Jan 2024\nPaper Link\n\n\n\n\n17 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Jan 2024\nPaper Link\n\n\n\n\n16 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Jan 2024\nPaper Link\n\n\n\n\n16 Jan 2024\nPaper Link\n\n\n\n\n16 Jan 2024\nPaper Link\n\n\n\n\n16 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Jan 2024\nPaper Link\n\n\n\n\n16 Jan 2024\nPaper Link\n\n\n\n\n10 Jan 2024\nPaper Link\n\n\n\n\n08 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n05 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n04 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n26 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n3 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n24 May 2024\nPaper Link\n\n\n\n\n3 Mar 2024\nPaper Link\nImplementation Link\n\n\n\n\n06 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n12 Feb 2024\nPaper Link\nImplementation Link\n\n\n\n\n21 October 2024\nPaper Link\nImplementation Link\n\n\n\n\n22 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n19 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n24 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n6 May 2024\nPaper Link\nImplementation Link\n\n\n\n\n16 Feb 2024\nPaper Link\n\n\n\n\n22 May 2024\nPaper Link\n\n\n\n\n11 Jun 2024\nPaper Link\nImplementation Link\n\n\n\n\n7 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n7 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n7 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n7 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n7 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n7 Jan 2024\nPaper Link\nImplementation Link\n\n\n\n\n7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#time-series-forecasting-models",
+    "href": "index.html#time-series-forecasting-models",
+    "title": "Models",
+    "section": "",
+    "text": "Stochastic Models - Moving Average (MA) Model - Autoregressive (AR) Model - Autoregressive Moving Average (ARMA) Model - Autoregressive Integrated Moving Average (ARIMA) Model - Seasonal ARIMA (SARIMA) Model - Exponential Smoothing Models - Vector Autoregression (VAR) Model: - Vector Autoregression Moving-Average (VARMA) Model - Vector Autoregression Moving-Average with Exogenous Regressors (VARMAX) Model - Seasonal Decomposition of Time Series (STL) Model - Seasonal-Trend decomposition using LOESS (STL) Model - Seasonal-Trend decomposition using LOESS with ARIMA errors (STL-ARIMA) Model - Seasonal-Trend decomposition using LOESS with Exogenous Regressors (STL-X) Model - Seasonal-Trend decomposition using LOESS with ARIMA errors and Exogenous Regressors (STL-ARIMA-X) Model\n\nML Models - RNN and LSTM Networks - CNN Networks - Encoder-Decoder Networks - Attention Networks - Transformer Networks - WaveNet Networks - TCN Networks - DeepAR Networks - DeepState Networks - DeepFactor Networks\n\n\nEvaluation Metrics - Mean Absolute Error (MAE) - Mean Squared Error (MSE) - Root Mean Squared Error (RMSE) - Mean Absolute Percentage Error (MAPE) - Symmetric Mean Absolute Percentage Error (SMAPE) - Mean Absolute Scaled Error (MASE) - Theil’s U Statistic - R2 Score - Adjusted R2 Score - Akaike Information Criterion (AIC) - Bayesian Information Criterion (BIC) - Mean Forecast Error (MFE) - Mean Absolute Deviation (MAD) - Tracking Signal (TS) - Forecast Bias - Forecast Accuracy - Forecast Precision - Forecast Recall - Forecast F1 Score - Forecast ROC AUC Score - Forecast PR AUC Score - Forecast Confusion Matrix - Forecast Classification Report - Forecast ROC Curve - Forecast PR Curve - Forecast Calibration Curve - Forecast Learning Curve - Forecast Residuals Plot - Forecast Residuals Density Plot - Forecast Residuals Distribution Plot - Forecast Residuals Q-Q Plot - Forecast Residuals Autocorrelation Plot - Forecast Residuals Partial Autocorrelation Plot - Forecast Residuals Lag Plot - Forecast Residuals Scatter Plot - Forecast Residuals vs. Time Plot - Forecast Residuals vs. Predicted Plot - Forecast Residuals vs. Actual Plot - Forecast Residuals vs. Forecast Plot - Forecast Residuals vs. Error Plot - Forecast Residuals vs. Squared Error Plot - Forecast Residuals vs. Absolute Error Plot - Forecast Residuals vs. Absolute Percentage Error Plot",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#patchtst-a-time-series-is-worth-64-words-long-term-forecasting-with-transformers",
+    "href": "index.html#patchtst-a-time-series-is-worth-64-words-long-term-forecasting-with-transformers",
+    "title": "Models",
+    "section": "",
+    "text": "17 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timesfm-a-decoder-only-foundation-model-for-time-series-forecasting",
+    "href": "index.html#timesfm-a-decoder-only-foundation-model-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "17 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#chronos-learning-the-language-of-time-series",
+    "href": "index.html#chronos-learning-the-language-of-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "12 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#itransformer-inverted-transformers-are-effective-for-time-series-forecasting",
+    "href": "index.html#itransformer-inverted-transformers-are-effective-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "14 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timemixer-decomposable-multiscale-mixing-for-time-series-forecasting",
+    "href": "index.html#timemixer-decomposable-multiscale-mixing-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "23 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#lag-llama-towards-foundation-models-for-probabilistic-time-series-forecasting",
+    "href": "index.html#lag-llama-towards-foundation-models-for-probabilistic-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "08 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#unified-training-of-universal-time-series-forecasting-transformers",
+    "href": "index.html#unified-training-of-universal-time-series-forecasting-transformers",
+    "title": "Models",
+    "section": "",
+    "text": "04 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#a-survey-on-diffusion-models-for-time-series-and-spatio-temporal-data",
+    "href": "index.html#a-survey-on-diffusion-models-for-time-series-and-spatio-temporal-data",
+    "title": "Models",
+    "section": "",
+    "text": "11 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#units-building-a-unified-time-series-model",
+    "href": "index.html#units-building-a-unified-time-series-model",
+    "title": "Models",
+    "section": "",
+    "text": "29 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#tiny-time-mixers-ttms-fast-pre-trained-models-for-enhanced-zerofew-shot-forecasting-of-multivariate-time-series",
+    "href": "index.html#tiny-time-mixers-ttms-fast-pre-trained-models-for-enhanced-zerofew-shot-forecasting-of-multivariate-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "09 Apr 2024\nPaper Link\nImplementation Link\n\n\n\n\n#### Buraya kadar incele sonrasi date order",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#disentangled-interpretable-representation-for-efficient-long-term-time-series-forecasting",
+    "href": "index.html#disentangled-interpretable-representation-for-efficient-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "Long Term TSF\nDiPE-Linear incorporates three temporal components: - Static Frequential Attention (SFA): Extracts and enhances prominent frequencies in the frequency domain. - Static Temporal Attention (STA): Selects input time points in the time domain that are strongly correlated with the predicted sequence. - Independent Frequential Mapping (IFM): Assumes independence across different frequencies and directly maps the input series to the output series at each frequency component in frequency domain.\nThese components alternate between learning in the frequency and time domains to achieve disentangled inter-pretability.\n26 Nov 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#rethinking-the-power-of-timestamps-for-robust-time-series-forecasting-a-global-local-fusion-perspective",
+    "href": "index.html#rethinking-the-power-of-timestamps-for-robust-time-series-forecasting-a-global-local-fusion-perspective",
+    "title": "Models",
+    "section": "",
+    "text": "13 Nov 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#efficanet-efficient-time-series-forecasting-with-convolutional-attention",
+    "href": "index.html#efficanet-efficient-time-series-forecasting-with-convolutional-attention",
+    "title": "Models",
+    "section": "",
+    "text": "07 Nov 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#peri-midformer-periodic-pyramid-transformer-for-time-series-analysis",
+    "href": "index.html#peri-midformer-periodic-pyramid-transformer-for-time-series-analysis",
+    "title": "Models",
+    "section": "",
+    "text": "07 Nov 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#from-similarity-to-superiority-channel-clustering-for-time-series-forecasting",
+    "href": "index.html#from-similarity-to-superiority-channel-clustering-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "06 Nov 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#a-mamba-foundation-model-for-time-series-forecasting",
+    "href": "index.html#a-mamba-foundation-model-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "05 Nov 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#cross-domain-pre-training-with-language-models-for-transferable-time-series-representations",
+    "href": "index.html#cross-domain-pre-training-with-language-models-for-transferable-time-series-representations",
+    "title": "Models",
+    "section": "",
+    "text": "05 Nov 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#elastst-towards-robust-varied-horizon-forecasting-with-elastic-time-series-transformer",
+    "href": "index.html#elastst-towards-robust-varied-horizon-forecasting-with-elastic-time-series-transformer",
+    "title": "Models",
+    "section": "",
+    "text": "04 Nov 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#filternet-harnessing-frequency-filters-for-time-series-forecasting",
+    "href": "index.html#filternet-harnessing-frequency-filters-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "03 Nov 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#ada-mshyper-adaptive-multi-scale-hypergraph-transformer-for-time-series-forecasting",
+    "href": "index.html#ada-mshyper-adaptive-multi-scale-hypergraph-transformer-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "31 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#flextsf-a-universal-forecasting-model-for-time-series-with-variable-regularities",
+    "href": "index.html#flextsf-a-universal-forecasting-model-for-time-series-with-variable-regularities",
+    "title": "Models",
+    "section": "",
+    "text": "30 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#from-news-to-forecast-integrating-event-analysis-in-llm-based-time-series-forecasting-with-reflection",
+    "href": "index.html#from-news-to-forecast-integrating-event-analysis-in-llm-based-time-series-forecasting-with-reflection",
+    "title": "Models",
+    "section": "",
+    "text": "30 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#parsimony-or-capability-decomposition-delivers-both-in-long-term-time-series-forecasting",
+    "href": "index.html#parsimony-or-capability-decomposition-delivers-both-in-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "16 Oct 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#towards-neural-scaling-laws-for-time-series-foundation-models",
+    "href": "index.html#towards-neural-scaling-laws-for-time-series-foundation-models",
+    "title": "Models",
+    "section": "",
+    "text": "16 Oct 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#foundts-comprehensive-and-unified-benchmarking-of-foundation-models-for-time-series-forecasting",
+    "href": "index.html#foundts-comprehensive-and-unified-benchmarking-of-foundation-models-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "15 Oct 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#llm-mixer-multiscale-mixing-in-llms-for-time-series-forecasting",
+    "href": "index.html#llm-mixer-multiscale-mixing-in-llms-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "15 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#moirai-moe-empowering-time-series-foundation-models-with-sparse-mixture-of-experts",
+    "href": "index.html#moirai-moe-empowering-time-series-foundation-models-with-sparse-mixture-of-experts",
+    "title": "Models",
+    "section": "",
+    "text": "14 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#are-self-attentions-effective-for-time-series-forecasting",
+    "href": "index.html#are-self-attentions-effective-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "12 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#mamba4cast-efficient-zero-shot-time-series-forecasting-with-state-space-models",
+    "href": "index.html#mamba4cast-efficient-zero-shot-time-series-forecasting-with-state-space-models",
+    "title": "Models",
+    "section": "",
+    "text": "12 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timebridge-non-stationarity-matters-for-long-term-time-series-forecasting",
+    "href": "index.html#timebridge-non-stationarity-matters-for-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "12 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#time-ffm-towards-lm-empowered-federated-foundation-model-for-time-series-forecasting",
+    "href": "index.html#time-ffm-towards-lm-empowered-federated-foundation-model-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "08 Oct 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timer-xl-long-context-transformers-for-unified-time-series-forecasting",
+    "href": "index.html#timer-xl-long-context-transformers-for-unified-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "07 Oct 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#autoregressive-moving-average-attention-mechanism-for-time-series-forecasting",
+    "href": "index.html#autoregressive-moving-average-attention-mechanism-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "04 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#nuwats-a-foundation-model-mending-every-incomplete-time-series",
+    "href": "index.html#nuwats-a-foundation-model-mending-every-incomplete-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "02 Oct 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#frequency-adaptive-normalization-for-non-stationary-time-series-forecasting",
+    "href": "index.html#frequency-adaptive-normalization-for-non-stationary-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "30 Sep 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#evolving-multi-scale-normalization-for-time-series-forecasting-under-distribution-shifts",
+    "href": "index.html#evolving-multi-scale-normalization-for-time-series-forecasting-under-distribution-shifts",
+    "title": "Models",
+    "section": "",
+    "text": "29 Sep 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#cyclenet-enhancing-time-series-forecasting-through-modeling-periodic-patterns",
+    "href": "index.html#cyclenet-enhancing-time-series-forecasting-through-modeling-periodic-patterns",
+    "title": "Models",
+    "section": "",
+    "text": "27 Sep 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#double-path-adaptive-correlation-spatial-temporal-inverted-transformer-for-stock-time-series-forecasting",
+    "href": "index.html#double-path-adaptive-correlation-spatial-temporal-inverted-transformer-for-stock-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "24 Sep 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#time-moe-billion-scale-time-series-foundation-models-with-mixture-of-experts",
+    "href": "index.html#time-moe-billion-scale-time-series-foundation-models-with-mixture-of-experts",
+    "title": "Models",
+    "section": "",
+    "text": "24 Sep 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#visionts-visual-masked-autoencoders-are-free-lunch-zero-shot-time-series-forecasters",
+    "href": "index.html#visionts-visual-masked-autoencoders-are-free-lunch-zero-shot-time-series-forecasters",
+    "title": "Models",
+    "section": "",
+    "text": "30 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#mamba-or-transformer-for-time-series-forecasting-mixture-of-universals-mou-is-all-you-need",
+    "href": "index.html#mamba-or-transformer-for-time-series-forecasting-mixture-of-universals-mou-is-all-you-need",
+    "title": "Models",
+    "section": "",
+    "text": "28 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#prformer-pyramidal-recurrent-transformer-for-multivariate-time-series-forecasting",
+    "href": "index.html#prformer-pyramidal-recurrent-transformer-for-multivariate-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "20 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#rethinking-channel-dependence-for-multivariate-time-series-forecasting-learning-from-leading-indicators",
+    "href": "index.html#rethinking-channel-dependence-for-multivariate-time-series-forecasting-learning-from-leading-indicators",
+    "title": "Models",
+    "section": "",
+    "text": "13 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#bidirectional-generative-pre-training-for-improving-time-series-representation-learning",
+    "href": "index.html#bidirectional-generative-pre-training-for-improving-time-series-representation-learning",
+    "title": "Models",
+    "section": "",
+    "text": "11 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#scalable-transformer-for-high-dimensional-multivariate-time-series-forecasting",
+    "href": "index.html#scalable-transformer-for-high-dimensional-multivariate-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "08 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#rhiots-a-framework-for-evaluating-hierarchical-time-series-forecasting-algorithms",
+    "href": "index.html#rhiots-a-framework-for-evaluating-hierarchical-time-series-forecasting-algorithms",
+    "title": "Models",
+    "section": "",
+    "text": "06 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#fine-grained-attention-in-hierarchical-transformers-for-tabular-time-series",
+    "href": "index.html#fine-grained-attention-in-hierarchical-transformers-for-tabular-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "02 Aug 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#dam-towards-a-foundation-model-for-time-series-forecasting",
+    "href": "index.html#dam-towards-a-foundation-model-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "25 Jul 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#a-survey-of-explainable-artificial-intelligence-xai-in-financial-time-series-forecasting",
+    "href": "index.html#a-survey-of-explainable-artificial-intelligence-xai-in-financial-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "22 Jul 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#deep-functional-factor-models-forecasting-high-dimensional-functional-time-series-via-bayesian-nonparametric-factorization",
+    "href": "index.html#deep-functional-factor-models-forecasting-high-dimensional-functional-time-series-via-bayesian-nonparametric-factorization",
+    "title": "Models",
+    "section": "",
+    "text": "18 Jul 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#deep-time-series-models-a-comprehensive-survey-and-benchmark",
+    "href": "index.html#deep-time-series-models-a-comprehensive-survey-and-benchmark",
+    "title": "Models",
+    "section": "",
+    "text": "18 Jul 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#large-pre-trained-time-series-models-for-cross-domain-time-series-analysis-tasks",
+    "href": "index.html#large-pre-trained-time-series-models-for-cross-domain-time-series-analysis-tasks",
+    "title": "Models",
+    "section": "",
+    "text": "11 Jul 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#loss-shaping-constraints-for-long-term-time-series-forecasting",
+    "href": "index.html#loss-shaping-constraints-for-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "11 Jul 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#vitime-a-visual-intelligence-based-foundation-model-for-time-series-forecasting",
+    "href": "index.html#vitime-a-visual-intelligence-based-foundation-model-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "10 Jul 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#s2ip-llm-semantic-space-informed-prompt-learning-with-llm-for-time-series-forecasting",
+    "href": "index.html#s2ip-llm-semantic-space-informed-prompt-learning-with-llm-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "07 Jul 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#fredformer-frequency-debiased-transformer-for-time-series-forecasting",
+    "href": "index.html#fredformer-frequency-debiased-transformer-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "03 Jul 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#revitalizing-multivariate-time-series-forecasting-learnable-decomposition-with-inter-series-dependencies-and-intra-series-variations-modeling",
+    "href": "index.html#revitalizing-multivariate-time-series-forecasting-learnable-decomposition-with-inter-series-dependencies-and-intra-series-variations-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "01 Jul 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#addressing-prediction-delays-in-time-series-forecasting-a-continuous-gru-approach-with-derivative-regularization",
+    "href": "index.html#addressing-prediction-delays-in-time-series-forecasting-a-continuous-gru-approach-with-derivative-regularization",
+    "title": "Models",
+    "section": "",
+    "text": "29 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#sigkan-signature-weighted-kolmogorov-arnold-networks-for-time-series",
+    "href": "index.html#sigkan-signature-weighted-kolmogorov-arnold-networks-for-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "25 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#are-language-models-actually-useful-for-time-series-forecasting",
+    "href": "index.html#are-language-models-actually-useful-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "22 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#decimamba-exploring-the-length-extrapolation-potential-of-mamba",
+    "href": "index.html#decimamba-exploring-the-length-extrapolation-potential-of-mamba",
+    "title": "Models",
+    "section": "",
+    "text": "20 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#understanding-different-design-choices-in-training-large-time-series-models",
+    "href": "index.html#understanding-different-design-choices-in-training-large-time-series-models",
+    "title": "Models",
+    "section": "",
+    "text": "20 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#foundation-models-for-time-series-analysis-a-tutorial-and-survey",
+    "href": "index.html#foundation-models-for-time-series-analysis-a-tutorial-and-survey",
+    "title": "Models",
+    "section": "",
+    "text": "18 Jun 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#generative-pretrained-hierarchical-transformer-for-time-series-forecasting",
+    "href": "index.html#generative-pretrained-hierarchical-transformer-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "18 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#probts-benchmarking-point-and-distributional-forecasting-across-diverse-prediction-horizons",
+    "href": "index.html#probts-benchmarking-point-and-distributional-forecasting-across-diverse-prediction-horizons",
+    "title": "Models",
+    "section": "",
+    "text": "17 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#llmfactor-extracting-profitable-factors-through-prompts-for-explainable-stock-movement-prediction",
+    "href": "index.html#llmfactor-extracting-profitable-factors-through-prompts-for-explainable-stock-movement-prediction",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jun 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#softs-efficient-multivariate-time-series-forecasting-with-series-core-fusion",
+    "href": "index.html#softs-efficient-multivariate-time-series-forecasting-with-series-core-fusion",
+    "title": "Models",
+    "section": "",
+    "text": "12 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#time-mmd-a-new-multi-domain-multimodal-dataset-for-time-series-analysis",
+    "href": "index.html#time-mmd-a-new-multi-domain-multimodal-dataset-for-time-series-analysis",
+    "title": "Models",
+    "section": "",
+    "text": "12 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#calibration-of-time-series-forecasting-detecting-and-adapting-context-driven-distribution-shift",
+    "href": "index.html#calibration-of-time-series-forecasting-detecting-and-adapting-context-driven-distribution-shift",
+    "title": "Models",
+    "section": "",
+    "text": "11 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability",
+    "href": "index.html#kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability",
+    "title": "Models",
+    "section": "",
+    "text": "04 Jun 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timer-generative-pre-trained-transformers-are-large-time-series-models",
+    "href": "index.html#timer-generative-pre-trained-transformers-are-large-time-series-models",
+    "title": "Models",
+    "section": "",
+    "text": "04 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#samformer-unlocking-the-potential-of-transformers-in-time-series-forecasting-with-sharpness-aware-minimization-and-channel-wise-attention",
+    "href": "index.html#samformer-unlocking-the-potential-of-transformers-in-time-series-forecasting-with-sharpness-aware-minimization-and-channel-wise-attention",
+    "title": "Models",
+    "section": "",
+    "text": "03 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#sparsetsf-modeling-long-term-time-series-forecasting-with-1k-parameters",
+    "href": "index.html#sparsetsf-modeling-long-term-time-series-forecasting-with-1k-parameters",
+    "title": "Models",
+    "section": "",
+    "text": "03 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#bayotide-bayesian-online-multivariate-time-series-imputation-with-functional-decomposition",
+    "href": "index.html#bayotide-bayesian-online-multivariate-time-series-imputation-with-functional-decomposition",
+    "title": "Models",
+    "section": "",
+    "text": "30 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#efficient-and-effective-time-series-forecasting-with-spiking-neural-networks",
+    "href": "index.html#efficient-and-effective-time-series-forecasting-with-spiking-neural-networks",
+    "title": "Models",
+    "section": "",
+    "text": "29 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#units-a-unified-multi-task-time-series-model",
+    "href": "index.html#units-a-unified-multi-task-time-series-model",
+    "title": "Models",
+    "section": "",
+    "text": "29 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#forecastgrapher-redefining-multivariate-time-series-forecasting-with-graph-neural-networks",
+    "href": "index.html#forecastgrapher-redefining-multivariate-time-series-forecasting-with-graph-neural-networks",
+    "title": "Models",
+    "section": "",
+    "text": "28 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#mambats-improved-selective-state-space-models-for-long-term-time-series-forecasting",
+    "href": "index.html#mambats-improved-selective-state-space-models-for-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "26 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#calf-aligning-llms-for-time-series-forecasting-via-cross-modal-fine-tuning",
+    "href": "index.html#calf-aligning-llms-for-time-series-forecasting-via-cross-modal-fine-tuning",
+    "title": "Models",
+    "section": "",
+    "text": "23 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#ginar-an-end-to-end-multivariate-time-series-forecasting-model-suitable-for-variable-missing",
+    "href": "index.html#ginar-an-end-to-end-multivariate-time-series-forecasting-model-suitable-for-variable-missing",
+    "title": "Models",
+    "section": "",
+    "text": "18 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#bi-mamba-bidirectional-mamba-for-time-series-forecasting",
+    "href": "index.html#bi-mamba-bidirectional-mamba-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "17 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#dgcformer-deep-graph-clustering-transformer-for-multivariate-time-series-forecasting",
+    "href": "index.html#dgcformer-deep-graph-clustering-transformer-for-multivariate-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "14 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#kolmogorov-arnold-networks-kans-for-time-series-analysis",
+    "href": "index.html#kolmogorov-arnold-networks-kans-for-time-series-analysis",
+    "title": "Models",
+    "section": "",
+    "text": "14 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#tkan-temporal-kolmogorov-arnold-networks",
+    "href": "index.html#tkan-temporal-kolmogorov-arnold-networks",
+    "title": "Models",
+    "section": "",
+    "text": "12 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#dtmamba-dual-twin-mamba-for-time-series-forecasting",
+    "href": "index.html#dtmamba-dual-twin-mamba-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "11 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#time-evidence-fusion-network-multi-source-view-in-long-term-time-series-forecasting",
+    "href": "index.html#time-evidence-fusion-network-multi-source-view-in-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "10 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#t-rep-representation-learning-for-time-series-using-time-embeddings",
+    "href": "index.html#t-rep-representation-learning-for-time-series-using-time-embeddings",
+    "title": "Models",
+    "section": "",
+    "text": "09 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#a-survey-of-time-series-foundation-models-generalizing-time-series-representation-with-large-language-model",
+    "href": "index.html#a-survey-of-time-series-foundation-models-generalizing-time-series-representation-with-large-language-model",
+    "title": "Models",
+    "section": "",
+    "text": "07 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#tslanet-rethinking-transformers-for-time-series-representation-learning",
+    "href": "index.html#tslanet-rethinking-transformers-for-time-series-representation-learning",
+    "title": "Models",
+    "section": "",
+    "text": "06 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#irregular-multivariate-time-series-forecasting-a-transformable-patching-graph-neural-networks-approach",
+    "href": "index.html#irregular-multivariate-time-series-forecasting-a-transformable-patching-graph-neural-networks-approach",
+    "title": "Models",
+    "section": "",
+    "text": "02 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#integrating-mamba-and-transformer-for-long-short-range-time-series-forecasting",
+    "href": "index.html#integrating-mamba-and-transformer-for-long-short-range-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "23 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#biased-temporal-convolution-graph-network-for-time-series-forecasting-with-missing-values",
+    "href": "index.html#biased-temporal-convolution-graph-network-for-time-series-forecasting-with-missing-values",
+    "title": "Models",
+    "section": "",
+    "text": "21 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#towards-transparent-time-series-forecasting",
+    "href": "index.html#towards-transparent-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "15 Apr 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#atfnet-adaptive-time-frequency-ensembled-network-for-long-term-time-series-forecasting",
+    "href": "index.html#atfnet-adaptive-time-frequency-ensembled-network-for-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "08 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#oneshotstl-one-shot-seasonal-trend-decomposition-for-online-time-series-anomaly-detection-and-forecasting",
+    "href": "index.html#oneshotstl-one-shot-seasonal-trend-decomposition-for-online-time-series-anomaly-detection-and-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "04 Apr 2023\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#is-mamba-effective-for-time-series-forecasting",
+    "href": "index.html#is-mamba-effective-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "02 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#tempo-prompt-based-generative-pre-trained-transformer-for-time-series-forecasting",
+    "href": "index.html#tempo-prompt-based-generative-pre-trained-transformer-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "02 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#mambamixer-efficient-selective-state-space-models-with-dual-token-and-channel-selection",
+    "href": "index.html#mambamixer-efficient-selective-state-space-models-with-dual-token-and-channel-selection",
+    "title": "Models",
+    "section": "",
+    "text": "29 Mar 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#tfb-towards-comprehensive-and-fair-benchmarking-of-time-series-forecasting-methods",
+    "href": "index.html#tfb-towards-comprehensive-and-fair-benchmarking-of-time-series-forecasting-methods",
+    "title": "Models",
+    "section": "",
+    "text": "29 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#an-analysis-of-linear-time-series-forecasting-models",
+    "href": "index.html#an-analysis-of-linear-time-series-forecasting-models",
+    "title": "Models",
+    "section": "",
+    "text": "25 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#an-end-to-end-structure-with-novel-position-mechanism-and-improved-emd-for-stock-forecasting",
+    "href": "index.html#an-end-to-end-structure-with-novel-position-mechanism-and-improved-emd-for-stock-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "25 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#hdmixer-hierarchical-dependency-with-extendable-patch-for-multivariate-time-series-forecasting",
+    "href": "index.html#hdmixer-hierarchical-dependency-with-extendable-patch-for-multivariate-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "24 Mar 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#latent-diffusion-transformer-for-probabilistic-time-series-forecasting",
+    "href": "index.html#latent-diffusion-transformer-for-probabilistic-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "24 Mar 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#stockmixer-a-simple-yet-strong-mlp-based-architecture-for-stock-price-forecasting",
+    "href": "index.html#stockmixer-a-simple-yet-strong-mlp-based-architecture-for-stock-price-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "24 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#moderntcn-a-modern-pure-convolution-structure-for-general-time-series-analysis",
+    "href": "index.html#moderntcn-a-modern-pure-convolution-structure-for-general-time-series-analysis",
+    "title": "Models",
+    "section": "",
+    "text": "22 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#simba-simplified-mamba-based-architecture-for-vision-and-multivariate-time-series",
+    "href": "index.html#simba-simplified-mamba-based-architecture-for-vision-and-multivariate-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "22 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#self-supervised-learning-for-time-series-contrastive-or-generative",
+    "href": "index.html#self-supervised-learning-for-time-series-contrastive-or-generative",
+    "title": "Models",
+    "section": "",
+    "text": "14 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timemachine-a-time-series-is-worth-4-mambas-for-long-term-forecasting",
+    "href": "index.html#timemachine-a-time-series-is-worth-4-mambas-for-long-term-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "14 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timedrl-disentangled-representation-learning-for-multivariate-time-series",
+    "href": "index.html#timedrl-disentangled-representation-learning-for-multivariate-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "13 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#multi-patch-prediction-adapting-llms-for-time-series-representation-learning",
+    "href": "index.html#multi-patch-prediction-adapting-llms-for-time-series-representation-learning",
+    "title": "Models",
+    "section": "",
+    "text": "10 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#mg-tsd-multi-granularity-time-series-diffusion-models-with-guided-learning-process",
+    "href": "index.html#mg-tsd-multi-granularity-time-series-diffusion-models-with-guided-learning-process",
+    "title": "Models",
+    "section": "",
+    "text": "09 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#considering-nonstationary-within-multivariate-time-series-with-variational-hierarchical-transformer-for-forecasting",
+    "href": "index.html#considering-nonstationary-within-multivariate-time-series-with-variational-hierarchical-transformer-for-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "08 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#pathformer-multi-scale-transformers-with-adaptive-pathways-for-time-series-forecasting",
+    "href": "index.html#pathformer-multi-scale-transformers-with-adaptive-pathways-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "07 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#periodicity-decoupling-framework-for-long-term-series-forecasting",
+    "href": "index.html#periodicity-decoupling-framework-for-long-term-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "06 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#injecttst-a-transformer-method-of-injecting-global-information-into-independent-channels-for-long-time-series-forecasting",
+    "href": "index.html#injecttst-a-transformer-method-of-injecting-global-information-into-independent-channels-for-long-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "05 Mar 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#cats-enhancing-multivariate-time-series-forecasting-by-constructing-auxiliary-time-series-as-exogenous-variables",
+    "href": "index.html#cats-enhancing-multivariate-time-series-forecasting-by-constructing-auxiliary-time-series-as-exogenous-variables",
+    "title": "Models",
+    "section": "",
+    "text": "04 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#diffusion-ts-interpretable-diffusion-for-general-time-series-generation",
+    "href": "index.html#diffusion-ts-interpretable-diffusion-for-general-time-series-generation",
+    "title": "Models",
+    "section": "",
+    "text": "04 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-to-generate-explainable-stock-predictions-using-self-reflective-large-language-models",
+    "href": "index.html#learning-to-generate-explainable-stock-predictions-using-self-reflective-large-language-models",
+    "title": "Models",
+    "section": "",
+    "text": "29 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timexer-empowering-transformers-for-time-series-forecasting-with-exogenous-variables",
+    "href": "index.html#timexer-empowering-transformers-for-time-series-forecasting-with-exogenous-variables",
+    "title": "Models",
+    "section": "",
+    "text": "29 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#totem-tokenized-time-series-embeddings-for-general-time-series-analysis",
+    "href": "index.html#totem-tokenized-time-series-embeddings-for-general-time-series-analysis",
+    "title": "Models",
+    "section": "",
+    "text": "26 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#lstprompt-large-language-models-as-zero-shot-time-series-forecasters-by-long-short-term-prompting",
+    "href": "index.html#lstprompt-large-language-models-as-zero-shot-time-series-forecasters-by-long-short-term-prompting",
+    "title": "Models",
+    "section": "",
+    "text": "25 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#test-text-prototype-aligned-embedding-to-activate-llms-ability-for-time-series",
+    "href": "index.html#test-text-prototype-aligned-embedding-to-activate-llms-ability-for-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "22 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#card-channel-aligned-robust-blend-transformer-for-time-series-forecasting",
+    "href": "index.html#card-channel-aligned-robust-blend-transformer-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "16 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#contiformer-continuous-time-transformer-for-irregular-time-series-modeling",
+    "href": "index.html#contiformer-continuous-time-transformer-for-irregular-time-series-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "16 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#large-language-models-for-forecasting-and-anomaly-detection-a-systematic-literature-review",
+    "href": "index.html#large-language-models-for-forecasting-and-anomaly-detection-a-systematic-literature-review",
+    "title": "Models",
+    "section": "",
+    "text": "15 Feb 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#multiresformer-transformer-with-adaptive-multi-resolution-modeling-for-general-time-series-forecasting",
+    "href": "index.html#multiresformer-transformer-with-adaptive-multi-resolution-modeling-for-general-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "08 Feb 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#moment-a-family-of-open-time-series-foundation-models",
+    "href": "index.html#moment-a-family-of-open-time-series-foundation-models",
+    "title": "Models",
+    "section": "",
+    "text": "06 Feb 2024\nPaper Link\nhttps://anonymous.4open.science/r/BETT-773F/README.md)",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#diffsformer-a-diffusion-transformer-on-stock-factor-augmentation",
+    "href": "index.html#diffsformer-a-diffusion-transformer-on-stock-factor-augmentation",
+    "title": "Models",
+    "section": "",
+    "text": "05 Feb 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#position-paper-what-can-large-language-models-tell-us-about-time-series-analysis",
+    "href": "index.html#position-paper-what-can-large-language-models-tell-us-about-time-series-analysis",
+    "title": "Models",
+    "section": "",
+    "text": "05 Feb 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#autotimes-autoregressive-time-series-forecasters-via-large-language-models",
+    "href": "index.html#autotimes-autoregressive-time-series-forecasters-via-large-language-models",
+    "title": "Models",
+    "section": "",
+    "text": "04 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#fredf-learning-to-forecast-in-frequency-domain",
+    "href": "index.html#fredf-learning-to-forecast-in-frequency-domain",
+    "title": "Models",
+    "section": "",
+    "text": "04 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#robusttsf-towards-theory-and-design-of-robust-time-series-forecasting-with-anomalies",
+    "href": "index.html#robusttsf-towards-theory-and-design-of-robust-time-series-forecasting-with-anomalies",
+    "title": "Models",
+    "section": "",
+    "text": "03 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#large-language-models-for-time-series-a-survey",
+    "href": "index.html#large-language-models-for-time-series-a-survey",
+    "title": "Models",
+    "section": "",
+    "text": "02 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#a-survey-of-deep-learning-and-foundation-models-for-time-series-forecasting",
+    "href": "index.html#a-survey-of-deep-learning-and-foundation-models-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "25 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#llm4ts-aligning-pre-trained-llms-as-data-efficient-time-series-forecasters",
+    "href": "index.html#llm4ts-aligning-pre-trained-llms-as-data-efficient-time-series-forecasters",
+    "title": "Models",
+    "section": "",
+    "text": "18 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#mshyper-multi-scale-hypergraph-transformer-for-long-range-time-series-forecasting",
+    "href": "index.html#mshyper-multi-scale-hypergraph-transformer-for-long-range-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "17 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#rwkv-ts-beyond-traditional-recurrent-neural-network-for-time-series-tasks",
+    "href": "index.html#rwkv-ts-beyond-traditional-recurrent-neural-network-for-time-series-tasks",
+    "title": "Models",
+    "section": "",
+    "text": "17 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#cnn-kernels-can-be-the-best-shapelets",
+    "href": "index.html#cnn-kernels-can-be-the-best-shapelets",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#gaformer-enhancing-timeseries-transformers-through-group-aware-embeddings",
+    "href": "index.html#gaformer-enhancing-timeseries-transformers-through-group-aware-embeddings",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#generative-learning-for-financial-time-series-with-irregular-and-scale-invariant-patterns",
+    "href": "index.html#generative-learning-for-financial-time-series-with-irregular-and-scale-invariant-patterns",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#interpretable-sparse-system-identification-beyond-recent-deep-learning-techniques-on-time-series-prediction",
+    "href": "index.html#interpretable-sparse-system-identification-beyond-recent-deep-learning-techniques-on-time-series-prediction",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#leveraging-generative-models-for-unsupervised-alignment-of-neural-time-series-data",
+    "href": "index.html#leveraging-generative-models-for-unsupervised-alignment-of-neural-time-series-data",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#self-supervised-contrastive-learning-for-long-term-forecasting",
+    "href": "index.html#self-supervised-contrastive-learning-for-long-term-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#sociodojo-building-lifelong-analytical-agents-with-real-world-text-and-time-series",
+    "href": "index.html#sociodojo-building-lifelong-analytical-agents-with-real-world-text-and-time-series",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#transformer-modulated-diffusion-models-for-probabilistic-multivariate-time-series-forecasting",
+    "href": "index.html#transformer-modulated-diffusion-models-for-probabilistic-multivariate-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "16 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#himtm-hierarchical-multi-scale-masked-time-series-modeling-for-long-term-forecasting",
+    "href": "index.html#himtm-hierarchical-multi-scale-masked-time-series-modeling-for-long-term-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "10 Jan 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#universal-time-series-representation-learning-a-survey",
+    "href": "index.html#universal-time-series-representation-learning-a-survey",
+    "title": "Models",
+    "section": "",
+    "text": "08 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#unettsf-a-better-performance-linear-complexity-time-series-prediction-model",
+    "href": "index.html#unettsf-a-better-performance-linear-complexity-time-series-prediction-model",
+    "title": "Models",
+    "section": "",
+    "text": "05 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#u-mixer-an-unet-mixer-architecture-with-stationarity-correction-for-time-series-forecasting",
+    "href": "index.html#u-mixer-an-unet-mixer-architecture-with-stationarity-correction-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "04 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#d-pad-deep-shallow-multi-frequency-patterns-disentangling-for-time-series-forecasting",
+    "href": "index.html#d-pad-deep-shallow-multi-frequency-patterns-disentangling-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "26 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#timecma-towards-llm-empowered-time-series-forecasting-via-cross-modality-alignment",
+    "href": "index.html#timecma-towards-llm-empowered-time-series-forecasting-via-cross-modality-alignment",
+    "title": "Models",
+    "section": "",
+    "text": "3 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#rose-register-assisted-general-time-series-forecasting-with-decomposed-frequency-learning",
+    "href": "index.html#rose-register-assisted-general-time-series-forecasting-with-decomposed-frequency-learning",
+    "title": "Models",
+    "section": "",
+    "text": "24 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#convtimenet-a-deep-hierarchical-fully-convolutional-model-for-multivariate-time-series-analysis",
+    "href": "index.html#convtimenet-a-deep-hierarchical-fully-convolutional-model-for-multivariate-time-series-analysis",
+    "title": "Models",
+    "section": "",
+    "text": "3 Mar 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#amd-adaptive-multi-scale-decomposition-framework-for-time-series-forecasting",
+    "href": "index.html#amd-adaptive-multi-scale-decomposition-framework-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "06 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#gtt-large-only-the-curve-shape-matters-training-foundation-models-for-zero-shot-multivariate-time-series-forecasting-through-next-curve-shape-prediction",
+    "href": "index.html#gtt-large-only-the-curve-shape-matters-training-foundation-models-for-zero-shot-multivariate-time-series-forecasting-through-next-curve-shape-prediction",
+    "title": "Models",
+    "section": "",
+    "text": "12 Feb 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#ltboost-boosted-hybrids-of-ensemble-linear-and-gradient-algorithms-for-the-long-term-time-series-forecasting",
+    "href": "index.html#ltboost-boosted-hybrids-of-ensemble-linear-and-gradient-algorithms-for-the-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "21 October 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#gridtst-leveraging-2d-information-for-long-term-time-series-forecasting-with-vanilla-transformers",
+    "href": "index.html#gridtst-leveraging-2d-information-for-long-term-time-series-forecasting-with-vanilla-transformers",
+    "title": "Models",
+    "section": "",
+    "text": "22 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#vcformer-variable-correlation-transformer-with-inherent-lagged-correlation-for-multivariate-time-series-forecasting",
+    "href": "index.html#vcformer-variable-correlation-transformer-with-inherent-lagged-correlation-for-multivariate-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "19 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#simba-mamba-360-survey-of-state-space-models-as-transformer-alternative-for-long-sequence-modelling-methods-applications-and-challenges",
+    "href": "index.html#simba-mamba-360-survey-of-state-space-models-as-transformer-alternative-for-long-sequence-modelling-methods-applications-and-challenges",
+    "title": "Models",
+    "section": "",
+    "text": "24 Apr 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#cpnet-boosting-mlps-with-a-coarsening-strategy-for-long-term-time-series-forecasting",
+    "href": "index.html#cpnet-boosting-mlps-with-a-coarsening-strategy-for-long-term-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "6 May 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#rpmixer-shaking-up-time-series-forecasting-with-random-projections-for-large-spatial-temporal-data",
+    "href": "index.html#rpmixer-shaking-up-time-series-forecasting-with-random-projections-for-large-spatial-temporal-data",
+    "title": "Models",
+    "section": "",
+    "text": "16 Feb 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#aaren-attention-as-an-rnn",
+    "href": "index.html#aaren-attention-as-an-rnn",
+    "title": "Models",
+    "section": "",
+    "text": "22 May 2024\nPaper Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#deformtime-capturing-variable-dependencies-with-deformable-attention-for-time-series-forecasting",
+    "href": "index.html#deformtime-capturing-variable-dependencies-with-deformable-attention-for-time-series-forecasting",
+    "title": "Models",
+    "section": "",
+    "text": "11 Jun 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#gbrt-effective-benchmarks-for-optical-turbulence-modeling",
+    "href": "index.html#gbrt-effective-benchmarks-for-optical-turbulence-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#mean-window-forecast-effective-benchmarks-for-optical-turbulence-modeling",
+    "href": "index.html#mean-window-forecast-effective-benchmarks-for-optical-turbulence-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#minute-climatology-effective-benchmarks-for-optical-turbulence-modeling",
+    "href": "index.html#minute-climatology-effective-benchmarks-for-optical-turbulence-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#rnn-effective-benchmarks-for-optical-turbulence-modeling",
+    "href": "index.html#rnn-effective-benchmarks-for-optical-turbulence-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#climatology-effective-benchmarks-for-optical-turbulence-modeling",
+    "href": "index.html#climatology-effective-benchmarks-for-optical-turbulence-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#linear-forecast-effective-benchmarks-for-optical-turbulence-modeling",
+    "href": "index.html#linear-forecast-effective-benchmarks-for-optical-turbulence-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "index.html#persistence-effective-benchmarks-for-optical-turbulence-modeling",
+    "href": "index.html#persistence-effective-benchmarks-for-optical-turbulence-modeling",
+    "title": "Models",
+    "section": "",
+    "text": "7 Jan 2024\nPaper Link\nImplementation Link",
+    "crumbs": [
+      "Models"
+    ]
+  },
+  {
+    "objectID": "00_core.html",
+    "href": "00_core.html",
+    "title": "Fevzi KILAS (aka niexche)",
+    "section": "",
+    "text": "Data Scienist and Ai resercher\n\nniexche.github.io\nfevzikilas.tech\ngithub.com/fevzikilas\nhuggingface.co/NIEXCHE\n\n@niexche",
+    "crumbs": [
+      "Fevzi KILAS (aka niexche)"
+    ]
+  }
+]
